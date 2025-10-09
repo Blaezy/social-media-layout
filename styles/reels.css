@@ -1,0 +1,27 @@
+
+.reel-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reel-one{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.media{
+  width: 344px;
+  height: 700px;
+  background-color: rgba(173, 216, 230, 0.537);
+  margin: 0px 20px;
+}
+
+.media-right{
+  width: 60px;
+  height: 700px;
+  background-color: rgba(255, 182, 193, 0.505);
+}
+

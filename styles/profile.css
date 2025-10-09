@@ -1,0 +1,147 @@
+.main-profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-profile-child{
+  width: 935px;
+  padding: 30px 20px 0px;
+}
+
+
+.profile-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.profile-pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 283px;
+  margin-right: 28px;
+}
+
+.profile-pic img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.profile-details{
+  flex: 1;
+}
+.name-of-profile{
+  font-size: 20px;
+  margin-right: 20px;
+}
+.first-line {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  height: 48px;
+}
+
+.buttons-container{
+  display: flex;
+  gap: 10px;
+}
+
+.following-button,
+.message-button,
+.add-friend-button {
+  display: flex;              
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: rgb(37, 41, 46);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  height: 32px;                
+  padding: 0 16px;            
+}
+
+.add-friend-button {
+  width: 32px;                 
+  padding: 0;                  
+}
+
+
+.add-friend-image{
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.three-dot-image{
+  width: 26px;
+  height: 26px;
+}
+
+.second-line{
+  display: flex;
+  gap: 40px;
+  margin: 20px 0px;
+}
+
+.num-color{
+  color: rgb(168, 168, 168);
+}
+
+.third-line,.fourth-line{
+  margin: 20px 0px;
+}
+
+.story-section{
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  gap: 30px;
+  margin-bottom: 70px;
+}
+
+.middle-profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+}
+
+.middle-icon{
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  object-position: center;
+  padding: 5px 20px;
+}
+
+.middle-hr{
+  text-align: center;
+  width: 935px;
+  border: 1px solid rgba(72, 70, 70, 0.47);
+  margin: 5px;
+}
+
+
+.lower-profile{
+  display: grid;
+  grid-template-columns: 310px 310px 310px;
+  justify-content: center;
+}
+
+
+.media-one{
+  width: 310px;
+  height: 300px;
+  background-color: rgba(255, 182, 193, 0.521);
+}
+
+.media-two{
+  width: 310px;
+  height: 300px;
+  background-color: rgba(173, 216, 230, 0.466);
+}

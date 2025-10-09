@@ -1,0 +1,349 @@
+.main-page {
+  display: flex;
+  justify-content: center;
+}
+
+.main-content {
+  width: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stories-img {
+  width: 630px;
+  height: 124px;
+  padding: 8px 9px;
+  /* background-color: lightblue; */
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.stories {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.outer-border {
+  display: inline-block;
+  border: 3.2px solid;
+  border-color: rgb(64, 64, 64);
+  padding: 3.2px;
+  border-radius: 50%;
+}
+
+.story {
+  width: 74px;
+  height: 74px;
+  border-radius: 50px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.name {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(168, 168, 168);
+}
+
+.all-caught-up {
+  width: 470px;
+  padding: 32px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 30px;
+  box-sizing: border-box;
+}
+
+.all-caught-up img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 25px;
+}
+
+.all-caught-up-text {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.all-caught-up-text2 {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.user-post {
+  display: flex;
+  flex-direction: column;
+  width: 470px;
+}
+
+.user-post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4px;
+  padding-bottom: 8px;
+}
+
+.user-profile-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+}
+
+.user-post-header p {
+  flex: 1;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.profile-name {
+  cursor: pointer;
+}
+
+.day {
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.follow {
+  color: rgb(116, 158, 255);
+  cursor: pointer;
+}
+
+.three-dot-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.user-post-media {
+  width: 470px;
+}
+.user-post-img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  box-sizing: border-box;
+  display: block;
+}
+
+.user-post-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-post-icon {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  align-items: center;
+}
+.left-section {
+  display: flex;
+  align-items: center;
+  width: 235px;
+  height: 40px;
+}
+
+.user-post-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.heart {
+  padding: 8px 8px 8px 0px;
+  cursor: pointer;
+}
+
+.heart:hover,
+.comment:hover,
+.send:hover,
+.right-section:hover {
+  opacity: 0.6;
+}
+
+.heart-fill {
+  display: none;
+}
+
+.comment,
+.send {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.right-section {
+  justify-content: end;
+  align-items: center;
+  width: 235px;
+  cursor: pointer;
+}
+
+.post-like {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.omen {
+  font-weight: 500;
+  cursor: pointer;
+}
+.post-desc {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.view-comment,
+.add-comment {
+  font-size: 14px;
+  color: rgb(163, 163, 163);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+hr {
+  width: 470px;
+  /* height: 1px; */
+  border: 1px solid rgba(72, 70, 70, 0.47);
+  margin-bottom: 20px;
+}
+
+.suggested-post {
+  display: flex;
+  justify-content: start;
+  font-size: 20px;
+  font-weight: 400;
+  width: 470px;
+  margin-bottom: 20px;
+}
+
+.side-content {
+  width: 319px;
+  padding-left: 64px;
+  margin-top: 36px;
+}
+
+.photo-profile-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+}
+
+.suggested-profile {
+  padding: 8px 0px;
+}
+
+.photo-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.photo-profile-image {
+  width: 56px;
+}
+
+.photo-profile-image img {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+.photo-profile-info {
+  flex: 1;
+}
+
+.photo-profile-info-name {
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.photo-profile-info-subname {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(168, 168, 168);
+}
+/* 
+.photo-profile-follow{
+  width: 47;
+} */
+
+.photo-profile-follow button {
+  border: none;
+  font-size: 12px;
+  font-weight: 300;
+  background-color: black;
+  color: #85a1ff;
+  cursor: pointer;
+}
+
+.photo-profile-follow button:hover {
+  color: #abbeff;
+}
+
+.switch:hover {
+  text-decoration: underline;
+}
+
+.suggestion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 16px;
+  margin-top: 17px;
+}
+
+.for-you {
+  color: rgb(168, 168, 168);
+  font-size: 14px;
+}
+
+.see-all {
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.see-all:hover {
+  opacity: 0.5;
+}
+
+.footer {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 8px 16px;
+}
+.footer p {
+  color: rgb(115, 115, 115);
+  font-size: 12px;
+  margin-bottom: 10px;
+  line-height: 18px;
+}
+
+h1,
+h3 {
+  text-align: center;
+  vertical-align: middle;
+}
