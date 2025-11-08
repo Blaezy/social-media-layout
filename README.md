@@ -2,12 +2,8 @@
 
 This project is a **frontend educational clone** of a modern social media user interface — built purely for **learning and practicing web development concepts** such as layout design, responsive styling, and component structuring.
 
-<h2>🌐 Visit the Project</h2>
-<p>
-  👉 <a href="https://blaezy.github.io/social-media-layout/" target="_blank">
-    Click here to view the live demo
-  </a>
-</p>
+## 🌐 Visit the Project  
+👉 **[Click here to view the live demo](https://blaezy.github.io/social-media-layout/)**
 
 
 ---
